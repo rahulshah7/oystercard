@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
 class Oystercard
-  def balance; end
+  def balance
+    0
+  end
 end
