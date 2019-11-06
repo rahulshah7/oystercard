@@ -31,3 +31,11 @@
 - [x] Write code that will make this test pass
 - [x] Now refactor by setting the balance in initialize using an instance variable
 - [x] Remove the balance method entirely and replace with an attr_reader
+
+### 5. Enable top up functionality
+
+- [x] Write up a plan for how you will interact with your code and manually test in IRB.
+  - I will load Oystercard class in Pry and create a card instance, then try to #top_up card by 100.
+- [ ] Write a test for the `top_up` method
+- [ ] Make sure the test fails before implementing the method
+- [ ] Implement the method to make the test pass
