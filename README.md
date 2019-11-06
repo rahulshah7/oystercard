@@ -56,3 +56,12 @@
   - I will create an instance of an Oystercard in Pry and #top_up(amount), then attempt to #deduct(amount) from the Oystercard instance.
 - [x] Write a test for the `deduct` method, see it fail
 - [x] Implement the method, see the test pass
+
+### 8. Add touch in/out support
+
+- [ ] Write up a plan for how you will interact with your code and manually test in IRB.
+- [ ] Write tests for `in_journey?`, `touch_in` and `touch_out`
+- [ ] Write implementation of these methods that will make the tests pass
+- [ ] Use an instance variable to track whether the card is in use
+- [ ] Use an RSpec predicate matcher to check if the card is in use
+- [ ] Use boolean values to store the state of the card
