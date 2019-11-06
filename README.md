@@ -42,9 +42,10 @@
 
 ### 6. Enforce maximum balance
 
-- [ ] Write up a plan for how you will interact with your code and manually test in IRB.
-- [ ] Write a test that checks the `top_up` method throws an exception if the new balance would exceed the limit.
-- [ ] Use a constant to store the limit
-- [ ] Implement the limit in the top_up method. Use an inline `if` statement to check if the limit would be exceeded
-- [ ] Make the error message include the limit value
-- [ ] Use interpolation to keep your code DRY
+- [x] Write up a plan for how you will interact with your code and manually test in IRB.
+  - I will assign a limit to a constant, then attempt to #top_up the oystercard, expecting an error to be raised if the new balance would be over the assigned limit.
+- [x] Write a test that checks the `top_up` method throws an exception if the new balance would exceed the limit.
+- [x] Use a constant to store the limit
+- [x] Implement the limit in the top_up method. Use an inline `if` statement to check if the limit would be exceeded
+- [x] Make the error message include the limit value
+- [x] Use interpolation to keep your code DRY
