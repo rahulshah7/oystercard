@@ -54,5 +54,5 @@
 
 - [x] Write up a plan for how you will interact with your code and manually test in IRB.
   - I will create an instance of an Oystercard in Pry and #top_up(amount), then attempt to #deduct(amount) from the Oystercard instance.
-- [ ] Write a test for the `deduct` method, see it fail
-- [ ] Implement the method, see the test pass
+- [x] Write a test for the `deduct` method, see it fail
+- [x] Implement the method, see the test pass
