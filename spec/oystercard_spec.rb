@@ -15,10 +15,10 @@ describe Oystercard do
       end
     end
 
-    context 'when initialized with a balance of 100' do
-      subject(:card_with_hundred) { described_class.new(balance: 100) }
-      it 'returns a balance of 100' do
-        expect(card_with_hundred.balance).to eq 100
+    context 'when initialized with a balance of 50' do
+      subject(:card_with_hundred) { described_class.new(balance: 50) }
+      it 'returns a balance of 50' do
+        expect(card_with_hundred.balance).to eq 50
       end
     end
   end
@@ -26,8 +26,8 @@ describe Oystercard do
   describe '#top_up' do
     it { is_expected.to respond_to(:top_up).with(1).argument }
 
-    it 'should increase card balance by 100' do
-      expect { subject.top_up(100) }.to change { subject.balance }.by(100)
+    it 'should increase card balance by 10' do
+      expect { subject.top_up(10) }.to change { subject.balance }.by(10)
     end
   end
 end
