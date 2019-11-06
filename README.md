@@ -59,7 +59,8 @@
 
 ### 8. Add touch in/out support
 
-- [ ] Write up a plan for how you will interact with your code and manually test in IRB.
+- [x] Write up a plan for how you will interact with your code and manually test in IRB.
+  - I will create an instance of an Oystercard in Pry and expect `#in_journey?` to be `true` after calling `#touch_in` and `false` after calling `#touch_out`.
 - [ ] Write tests for `in_journey?`, `touch_in` and `touch_out`
 - [ ] Write implementation of these methods that will make the tests pass
 - [ ] Use an instance variable to track whether the card is in use
