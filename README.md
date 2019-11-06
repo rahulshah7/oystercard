@@ -36,6 +36,6 @@
 
 - [x] Write up a plan for how you will interact with your code and manually test in IRB.
   - I will load Oystercard class in Pry and create a card instance, then try to #top_up card by 100.
-- [ ] Write a test for the `top_up` method
-- [ ] Make sure the test fails before implementing the method
-- [ ] Implement the method to make the test pass
+- [x] Write a test for the `top_up` method
+- [x] Make sure the test fails before implementing the method
+- [x] Implement the method to make the test pass
