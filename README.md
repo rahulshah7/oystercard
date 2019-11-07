@@ -80,7 +80,7 @@
 
 - [x] Write up a plan for how you will interact with your code and manually test in IRB.
   - I will #top_up(amount) a card instance, #touch_in and then #touch_out, expecting balance to reduce by the minimum_fare
-- [ ] Write a test that uses `expect {}.to change{}.by()` syntax to check that a charge is made on touch out.
-- [ ] Update the `touch_out` method to make the test pass
-- [ ] Make '#deduct' a private method
-- [ ] Keep the code DRY
+- [x] Write a test that uses `expect {}.to change{}.by()` syntax to check that a charge is made on touch out.
+- [x] Update the `touch_out` method to make the test pass
+- [x] Make '#deduct' a private method
+- [x] Keep the code DRY
