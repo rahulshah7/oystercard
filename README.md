@@ -61,11 +61,11 @@
 
 - [x] Write up a plan for how you will interact with your code and manually test in IRB.
   - I will create an instance of an Oystercard in Pry and expect `#in_journey?` to be `true` after calling `#touch_in` and `false` after calling `#touch_out`.
-- [ ] Write tests for `in_journey?`, `touch_in` and `touch_out`
-- [ ] Write implementation of these methods that will make the tests pass
-- [ ] Use an instance variable to track whether the card is in use
-- [ ] Use an RSpec predicate matcher to check if the card is in use
-- [ ] Use boolean values to store the state of the card
+- [x] Write tests for `in_journey?`, `touch_in` and `touch_out`
+- [x] Write implementation of these methods that will make the tests pass
+- [x] Use an instance variable to track whether the card is in use
+- [x] Use an RSpec predicate matcher to check if the card is in use
+- [x] Use boolean values to store the state of the card
 
 ### 9. Checking minimum balance on touch in
 
