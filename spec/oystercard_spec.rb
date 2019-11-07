@@ -77,5 +77,12 @@ describe Oystercard do
       subject.touch_out
       is_expected.not_to be_in_journey
     end
+
+    it 'should deduct the fare from the card balance' do
+      subject.top_up(Oystercard::MAX_BALANCE_LIMIT)
+      subject.touch_in
+      subject.touch_out
+      expect { subject.touch_out }.to change { subject.balance }.by(-Oystercard::MINIMUM_FARE)
+    end
   end
 end
