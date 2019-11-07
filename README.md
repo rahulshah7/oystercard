@@ -66,3 +66,12 @@
 - [ ] Use an instance variable to track whether the card is in use
 - [ ] Use an RSpec predicate matcher to check if the card is in use
 - [ ] Use boolean values to store the state of the card
+
+### 9. Checking minimum balance on touch in
+
+- [x] Write up a plan for how you will interact with your code and manually test in IRB.
+  - I will create an instance of Oystercard and expect #touch_in to raise an error due do @balance being lower than Oystercard::MINIMUM_FARE
+- [x] Write a test that checks that an error is thrown if a card with insufficient balance is touched in
+- [x] Write the implementation
+- [x] Update existing tests, if necessary, to make sure they still pass
+- [x] Refactor to remove any magic numbers and replace with a constant
