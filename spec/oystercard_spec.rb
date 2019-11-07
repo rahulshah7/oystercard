@@ -39,13 +39,6 @@ describe Oystercard do
     end
   end
 
-  describe '#deduct' do
-    it { is_expected.to respond_to(:deduct).with(1).argument }
-    it 'should reduce card balance by 10' do
-      expect { subject.deduct(10) }.to change { subject.balance }.by(-10)
-    end
-  end
-
   describe '#in_journey?' do
     it { is_expected.to respond_to(:in_journey?) }
     context 'when a new instance is created' do
